@@ -1,0 +1,37 @@
+[
+  {
+    "personalInfo": {
+      "id": 1,
+      "name": {
+        "first": "Tao",
+        "last": "Chen"
+      },
+      "mobileNUmber": "0466337173",
+      "emailAddress": "TAOCHENSYD@GMAIL.COM"
+    },
+    "projectsInfo": [
+      {
+        "id": 1,
+        "startDate": "",
+        "endDate": "",
+        "organizationName": "",
+        "type": "Personal",
+        "descriptionText": "",
+        "sourceCode": "",
+        "livePage": "",
+        "authorID": "1"
+      }
+    ],
+    "education": [
+      {
+        "id": 1,
+        "courseName": "Master of Information Technology",
+        "universityName": "University of Technology Sydney",
+        "startDate": "February 2021",
+        "endDate": null,
+        "major": ["Software  Development"],
+        "subMajor": [null]
+      }
+    ]
+  }
+]
