@@ -1,16 +1,17 @@
 import React from "react";
-import "../styles/HeaderNavBar.css";
+import "../styles/componentsStyle.css";
 
 function Headernavbar() {
   return (
     <div>
-      <nav className="container">
-        <a href="/">Tao</a>
-        <a href="/projectList/">Projects</a>
-        <a href="/aboutMe/">About Me</a>
-        <a href="/workExpreiences/">Work Experiences</a>
-        <a href="/Skills/">Skills</a>
-        <a href="/contact/">Contact</a>
+      <nav className="containerWithSpaceAround subtitle ">
+        <a className="navText" href="/"><b>Tao</b></a>
+        <a className="navText" href="/projectList/">Projects</a>
+        <a className="navText" href="/aboutMe/">About Me</a>
+        <a className="navText" href="/workExpreiences/">Work Experiences</a>
+        <a className="navText" href="/Skills/">Skills</a>
+        <a className="navText" href="/contact/">Contact</a>
+        <div className="navText toggleNav" >ShowAndHide</div>
       </nav>
     </div>
   );

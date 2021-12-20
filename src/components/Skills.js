@@ -13,19 +13,20 @@ function Skills(data) {
 
   getSectionTitle(data, section);
   return (
-    <>
+    <div className="containerFlexColumn">
       {section.map((sectionTitle, sectionIndex) => (
-        <div key={sectionIndex} className="skillSection">
-          {sectionTitle}
+        <div key={sectionIndex} className="skillSection containerCard">
+          <ul className="title">{sectionTitle}
 
           {data.data.map((skill) =>
             skill.category === sectionTitle ? (
-              <h6 key={skill.id}>{skill.skill}</h6>
+              <li key={skill.id} className="">{skill.skill}</li>
             ) : null,
           )}
+          </ul>
         </div>
       ))}
-    </>
+    </div>
   );
 }
 

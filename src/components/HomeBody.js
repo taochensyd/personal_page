@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/HomeBody.css";
+import "../styles/componentsStyle.css";
 
 function HomeBody(data) {
   console.log(data);

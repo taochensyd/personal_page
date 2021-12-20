@@ -1,5 +1,64 @@
-.skillSection {
-  border: 1px solid;
-  width: 30%;
-  margin: 5% 15% 5% 15%;
+.containerWithSpaceAround {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.pageCenter {
+  padding: 30vh 50vw;
+  text-align: center;
+}
+
+.containerFlexColumn {
+  display: flex;
+  flex-direction: column;
+}
+
+.containerCard{
+  padding: 5%;
+  background-color:white;
+  border: 1px;
+  border-style: outset;
+  margin: 3%, 5%;
+}
+
+.title {
+  font-size: xx-large;
+}
+
+.subtitle{
+  font-size: x-large;
+}
+
+.info {
+  font-size: larger;
+}
+
+.navText {
+  text-decoration: none;
+  padding: 1%;
+}
+
+.navText:hover {
+  background-color: lightgrey;
+}
+
+@media screen and (max-width: 750px) {
+  .containerWithSpaceAround {
+    flex-direction: column;
+    width: 100%;
+    border-style: outset;
+  }
+}
+
+@media screen and (max-width: 750px){
+  .toggleNav{
+    display: block;
+  }
+}
+
+@media screen and (min-width: 750px){
+  .toggleNav{
+    display: none;
+  }
 }
