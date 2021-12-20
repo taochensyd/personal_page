@@ -1,11 +1,31 @@
 import React from "react";
+import "../styles/componentsStyle.css";
 
-function Skills() {
+function Skills(data) {
+  var section = [];
+  function getSectionTitle(data, section) {
+    for (let i = 0; i < data.data.length; i++) {
+      if (section.includes(data.data[i].category) === false) {
+        section.push(data.data[i].category);
+      }
+    }
+  }
+
+  getSectionTitle(data, section);
   return (
-    <div className="skillsCard">
-      <p className="skills displayFlex">JavaScript</p>
-      <p className="skillsProficiency displayFlex">5 Star</p>
-    </div>
+    <>
+      {section.map((sectionTitle, sectionIndex) => (
+        <div key={sectionIndex} className="skillSection">
+          {sectionTitle}
+
+          {data.data.map((skill) =>
+            skill.category === sectionTitle ? (
+              <h6 key={skill.id}>{skill.skill}</h6>
+            ) : null,
+          )}
+        </div>
+      ))}
+    </>
   );
 }
 

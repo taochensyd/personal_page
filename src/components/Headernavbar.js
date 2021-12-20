@@ -8,6 +8,8 @@ function Headernavbar() {
         <a href="/">Tao</a>
         <a href="/projectList/">Projects</a>
         <a href="/aboutMe/">About Me</a>
+        <a href="/workExpreiences/">Work Experiences</a>
+        <a href="/Skills/">Skills</a>
         <a href="/contact/">Contact</a>
       </nav>
     </div>

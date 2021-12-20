@@ -1,13 +1,20 @@
 import React from "react";
 
-function AboutMe() {
+function AboutMe(data) {
   return (
-    <div className="educationCard">
-      <h2>Education:</h2>
-      <h3>Master of Information Technology</h3>
-      <h3>University of Technology Sydney</h3>
-      <h3>2021 - Present</h3>
-    </div>
+    <>
+      {data.data.map((education) => (
+        <div className="educationCard" key={education.id}>
+          <h2>Education:</h2>
+          <h3>{education.courseName}</h3>
+          <h3>{education.universityName}</h3>
+          <h3>
+            {education.startDate} {" - "}{" "}
+            {education.endDate ? education.endDate : "Present"}
+          </h3>
+        </div>
+      ))}
+    </>
   );
 }
 

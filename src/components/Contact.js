@@ -1,11 +1,16 @@
 import React from "react";
 
-function Contact() {
+function Contact(data) {
   return (
-    <div>
-      <h3>Mobile: 0466 337 173</h3>
-      <h3>Email: TAOCHENSYD@GMAIL.COM</h3>
-    </div>
+    <>
+      <div>
+        <h3>Mobile: </h3>
+        <p>{data.data.mobileNumber}</p>
+        <h3>Email:</h3>
+        <p>{data.data.emailAddress}</p>
+      </div>
+      {console.log(data.data)}
+    </>
   );
 }
 
