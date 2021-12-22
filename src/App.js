@@ -25,7 +25,7 @@ function App() {
           element={<ProjectList data={ResumeData.resume.projectsInfo} />}
         />
         <Route
-          path="/aboutMe"
+          path="/education"
           element={<AboutMe data={ResumeData.resume.education} />}
         />
         <Route

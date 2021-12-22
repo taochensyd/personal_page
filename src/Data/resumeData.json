@@ -50,7 +50,16 @@
         "subMajor": [null]
       },
       {
-        "id": 2,
+        "id": 3,
+        "courseName": "Graduate Certificate in Computing",
+        "universityName": "University of New South Wales",
+        "startDate": "February 2020",
+        "endDate": "December 2020",
+        "major": [null],
+        "subMajor": ["Information Technology"]
+      },
+      {
+        "id": 3,
         "courseName": "Bachelor of Information and Communications Technology",
         "universityName": "Western Sydney University",
         "startDate": "February 2017",
@@ -66,7 +75,7 @@
         "location": "Sydney Airport",
         "position": "Information Technology Support",
         "startDate": "January 2019",
-        "endDate": "June 2020",
+        "endDate": "January 2020",
         "workDescrition": [
           "Providing external support to end-users for software and hardware related issues.",
           "Provisioning and replacement hardware and devices with required configurations.",
@@ -85,7 +94,7 @@
           "ES6",
           "Control Flow",
           "Error Handling",
-          "fetch/axios",
+          "fetch API",
           "higher-Order Functions"
         ],
         "category": "Front-End",
@@ -103,7 +112,15 @@
       {
         "id": 3,
         "skill": "Amazon Web Service - AWS",
-        "subSkills": ["EC2", "S3", "Route53"],
+        "subSkills": [
+          "EC2",
+          "S3",
+          "Route53",
+          "Cloud9",
+          "CloutFront",
+          "Elastic Beanstalk",
+          "AWS Amplify"
+        ],
         "category": "Cloud",
         "section": "",
         "level": "4"
@@ -129,6 +146,143 @@
         "skill": "CSS3",
         "subSkills": ["Flex-box"],
         "category": "Front-End",
+        "section": "",
+        "level": "5"
+      },
+      {
+        "id": 7,
+        "skill": "TypeScript",
+        "subSkills": [""],
+        "category": "Front-End",
+        "section": "",
+        "level": "5"
+      },
+      {
+        "id": 8,
+        "skill": "React",
+        "subSkills": ["JSX", "React-Rudux", "Context API"],
+        "category": "Front-End",
+        "section": "",
+        "level": "5"
+      },
+      {
+        "id": 9,
+        "skill": "jQuery",
+        "subSkills": [""],
+        "category": "Front-End",
+        "section": "",
+        "level": "4"
+      },
+      {
+        "id": 10,
+        "skill": "Express",
+        "subSkills": [""],
+        "category": "Back-End",
+        "section": "",
+        "level": "3"
+      },
+      {
+        "id": 11,
+        "skill": "Git",
+        "subSkills": ["Git-CLI"],
+        "category": "Version Control",
+        "section": "",
+        "level": "4"
+      },
+      {
+        "id": 12,
+        "skill": "Networking, Routing & Switching",
+        "subSkills": [
+          "HTTP/HTTPS",
+          "TCP/IP",
+          "IP Subnetting",
+          "VPN",
+          "DHCP",
+          "DNS",
+          "VLAN",
+          "Wireless"
+        ],
+        "category": "Networking",
+        "section": "",
+        "level": "5"
+      },
+      {
+        "id": 13,
+        "skill": "SDLC Agile Development",
+        "subSkills": ["Agile"],
+        "category": "Soft Skills",
+        "section": "",
+        "level": "4"
+      },
+      {
+        "id": 14,
+        "skill": "Customer Service",
+        "subSkills": [""],
+        "category": "Soft Skills",
+        "section": "",
+        "level": "4"
+      },
+      {
+        "id": 15,
+        "skill": "Team Player",
+        "subSkills": [""],
+        "category": "Soft Skills",
+        "section": "",
+        "level": "5"
+      },
+      {
+        "id": 16,
+        "skill": "Documentation",
+        "subSkills": ["Code Comment", "Note"],
+        "category": "Soft Skills",
+        "section": "",
+        "level": "5"
+      },
+      {
+        "id": 17,
+        "skill": "SQL",
+        "subSkills": [""],
+        "category": "Database",
+        "section": "",
+        "level": "5"
+      },
+      {
+        "id": 18,
+        "skill": "MySQL",
+        "subSkills": [""],
+        "category": "Database",
+        "section": "",
+        "level": "5"
+      },
+      {
+        "id": 19,
+        "skill": "PostgreSQL",
+        "subSkills": [""],
+        "category": "Database",
+        "section": "",
+        "level": "5"
+      },
+      {
+        "id": 20,
+        "skill": "PHP",
+        "subSkills": [""],
+        "category": "Programming Languages",
+        "section": "",
+        "level": "4"
+      },
+      {
+        "id": 21,
+        "skill": "JAVA",
+        "subSkills": [""],
+        "category": "Programming Languages",
+        "section": "",
+        "level": "4"
+      },
+      {
+        "id": 22,
+        "skill": "JavaScript",
+        "subSkills": ["ES6"],
+        "category": "Programming Languages",
         "section": "",
         "level": "5"
       }
