@@ -15,14 +15,14 @@ function Skills(data) {
     <div className="containerFlexColumn">
       {section.map((sectionTitle, sectionIndex) => (
         <div key={sectionIndex} className="skillSection containerCard">
-          <ul className="title">{sectionTitle}
+          <dl className="title">{sectionTitle}
 
           {data.data.map((skill) =>
             skill.category === sectionTitle ? (
-              <li key={skill.id} className="">{skill.skill}</li>
+              <dt key={skill.id} className="subtitle dashed">{skill.skill}{skill.subSkills.map((subSkill) => subSkill ? <dd>{subSkill}</dd> : null)}</dt>
             ) : null,
           )}
-          </ul>
+          </dl>
         </div>
       ))}
     </div>
