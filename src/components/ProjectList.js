@@ -1,8 +1,6 @@
 import React from "react";
-import "../styles/componentsStyle.css";
 
 function ProjectList(data) {
-  //console.log(data.data);
 
   return (
     <>
