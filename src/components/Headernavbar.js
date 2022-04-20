@@ -25,6 +25,7 @@ function Headernavbar() {
         <div className="navText toggleNav">ShowAndHide</div>
       </nav>
     </div>
+
   );
 }
 

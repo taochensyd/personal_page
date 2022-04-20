@@ -14,6 +14,7 @@ function HomeBody(data) {
         {" "}{data.data.location.city}{", "}{data.data.location.country}
       </h3>
     </div>
+
   );
 }
 
